@@ -1,0 +1,19 @@
+name: screen_border
+description: A display-concentric screen border overlay widget for Flutter that automatically matches the physical display's rounded corners.
+version: 0.1.0
+homepage: https://github.com/Navideck/screen_border
+repository: https://github.com/Navideck/screen_border
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  corner_radius_plugin: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
